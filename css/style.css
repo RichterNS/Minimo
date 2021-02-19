@@ -14,6 +14,14 @@ a {
 a:hover {
   color: #898377;
 }
+p {
+  line-height: 1.5rem;
+}
+h2,
+h3 {
+  margin: 1rem 0;
+  font-size: 30px;
+}
 header .navbar-collapse {
   flex-grow: 0;
 }
@@ -38,4 +46,37 @@ header .nav-item a::after {
 }
 header .nav-item a:hover::after {
   transform: scale(1);
+}
+.slider {
+  margin-bottom: 50px;
+}
+
+.post-category,
+.link-more {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #b4ad9e;
+  font-weight: 300;
+  text-decoration: none;
+}
+.post-title a {
+  color: #626262;
+  text-decoration: none;
+}
+.grid-posts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.grid-posts .card {
+  border: 0;
+  margin-bottom: 100px;
+}
+.grid-posts .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.grid-posts .card-img-top {
+  min-height: 450px;
+  border-radius: 0;
 }
