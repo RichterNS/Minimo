@@ -14,3 +14,28 @@ a {
 a:hover {
   color: #898377;
 }
+header .navbar-collapse {
+  flex-grow: 0;
+}
+header .navbar-brand {
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+  color: #000;
+}
+header .nav-item {
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+header .nav-item a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #ccc;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+header .nav-item a:hover::after {
+  transform: scale(1);
+}
